@@ -38,7 +38,7 @@ class ScheduleApp:
         self.create_title_bar()
 
         # 加载并设置背景图片
-        self.set_background_image("background.png")
+        self.set_background_image("background.jpg")
 
         # Add the calendar view
         self.calendar_view = CalendarView(self.main_frame, self.show_daily_schedule) # self.calendar_view：实例化CalendarView对象，传入根窗口self.root和一个回调函数self.show_daily_schedule。这个回调函数用于当用户选择日期时切换到每日视图。
